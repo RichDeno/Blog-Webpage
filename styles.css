@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Header styling */
+.blog-header {
+    background-color: #333;
+    color: #fff;
+    padding: 1.5em;
+    text-align: center;
+}
+
+.blog-title {
+    font-size: 2em;
+    margin: 0;
+}
+
+.intro-text {
+    font-style: italic;
+    margin-top: 0.5em;
+}
+
+/* Table of Contents */
+.toc {
+    background-color: #fff;
+    padding: 1em;
+    margin: 1em 0;
+}
+
+.toc h2 {
+    font-size: 1.5em;
+}
+
+.toc ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.toc ul li {
+    margin: 0.5em 0;
+}
+
+.toc a {
+    text-decoration: none;
+    color: #333;
+}
+
+.toc a:hover {
+    /* text-decoration: underline; */
+    color: #d2691e;
+}
+
+/* Blog entry styling */
+.blog-entry {
+    background-color: #fff;
+    padding: 1.5em;
+    margin: 1em 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.entry-title {
+    font-size: 1.75em;
+    color: #333;
+}
+
+.entry-date {
+    color: #888;
+    font-size: 0.9em;
+}
+
+.entry-text {
+    font-size: 1.1em;
+    color: #555;
+    margin-top: 1em;
+}
